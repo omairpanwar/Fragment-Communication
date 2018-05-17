@@ -8,6 +8,52 @@
     android:weightSum="2"
     android:orientation="vertical"
     >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainappbarlayout">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HeaderBar"
+            android:id="@+id/maintoolbar">
+
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainTablayout"
+            app:tabTextColor="#FAFAFA">
+
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tabitem1"
+                android:text="Tab1" />
+
+
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tabitem2"
+                android:text="Tab2" />
+
+            <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/tabitem3"
+                android:text="Tab3" />
+
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewtab"
+        />
+
 
     <FrameLayout
         android:layout_width="match_parent"
