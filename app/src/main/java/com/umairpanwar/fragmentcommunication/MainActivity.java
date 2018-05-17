@@ -1,6 +1,5 @@
 package com.umairpanwar.fragmentcommunication;
 
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -25,8 +24,8 @@ public class MainActivity extends AppCompatActivity implements Fragment1.OnNameS
 
 
     @Override
-    public void setName(String name) {
+    public void setName(double name) {
      Fragment2 f2 =(Fragment2) getSupportFragmentManager().findFragmentById(R.id.framelayout2);
-     f2.updateinfo(name);
+     f2.updateinfo((long) name);
     }
 }

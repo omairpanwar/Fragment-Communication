@@ -26,8 +26,8 @@ public class Fragment2 extends Fragment {
 
         return view;
     }
-    public void updateinfo(String name){
-        tvClick.setText(name);
+    public void updateinfo(long name){
+        tvClick.setText(String.valueOf(name));
 
     }
 
