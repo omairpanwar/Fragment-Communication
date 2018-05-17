@@ -54,7 +54,7 @@ public class Fragment1 extends Fragment {
     }
 
     public interface OnNameSetListner {
-        public void setName(double name);
+        public void setName(long name);
     }
 
     @Override

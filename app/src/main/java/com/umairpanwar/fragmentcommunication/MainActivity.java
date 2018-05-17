@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements Fragment1.OnNameS
 
 
     @Override
-    public void setName(double name) {
+    public void setName(long name) {
      Fragment2 f2 =(Fragment2) getSupportFragmentManager().findFragmentById(R.id.framelayout2);
      f2.updateinfo((long) name);
     }
